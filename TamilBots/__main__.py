@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/TamilSupport"),
+           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/DOSTO_KI_M3HFIL"),
              InlineKeyboardButton(
-                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/SongProBot?startgroup=true"
+                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/TOXIC_MUCICOPBOT?startgroup=true"
                     )
                 ]
             ]
@@ -57,7 +57,7 @@ async def help(client, message):
     text = "𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗\n /song (song name) 🥳"
     await message.reply(text)
 
-OWNER_ID.append(1492186775)
+OWNER_ID.append(6109531260)
 app.start()
-LOGGER.info("SongPlayRoBot Is Now Working🤗🤗🤗")
+LOGGER.info("MusixBot Is Now Working🤗🤗🤗")
 idle()
