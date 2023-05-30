@@ -15,7 +15,7 @@
             "description": "Get this value by making a bot from @BotFather.",
             "required": true
         },
-        "OWNER_ID": {
+        "OWNER_ID": {6109531260
             "description": "Your telegram user id.",
             "required": true
         }
@@ -36,7 +36,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
